@@ -1915,11 +1915,12 @@ var CommonResourceComponent = /** @class */ (function () {
         this.tagArray.push(this.tagCount);
     };
     CommonResourceComponent.prototype.getTagArray = function (value) {
+        var _this = this;
         var tags = [];
         this.tagArray.forEach(function (i) {
             tags.push({
-                "Key": value["tagKey" + i] ? value["tagKey" + i] : undefined,
-                "Value": value["tagValue" + i] ? value["tagValue" + i] : undefined
+                "Key": value["tagKey" + i] ? _this.utility.getProperJson(value["tagKey" + i]) : undefined,
+                "Value": value["tagValue" + i] ? _this.utility.getProperJson(value["tagValue" + i]) : undefined
             });
         });
         return tags.length == 0 ? undefined : tags;
@@ -6099,7 +6100,7 @@ var RESOURCE_DATA = [
             },
             {
                 resourcename: "SubnetRouteTableAssociation",
-                resourcesyntax: "AWS::EC2::SubnetNetworkAclAssociation",
+                resourcesyntax: "AWS::EC2::SubnetRouteTableAssociation",
                 resourcecount: 0
             },
             {
