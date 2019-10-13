@@ -283,8 +283,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 //Material import end
-//import { EbsVolumeComponent } from './ec2/ebs-volume/ebs-volume.component';
-//import { SectionViewComponent } from './section-view/section-view.component';
 
 
 
@@ -294,11 +292,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-//import { EC2EIPComponent } from './ec2/ec2-eip/ec2-eip.component';
-//import { EC2InstanceComponent } from './ec2/ec2-instance/ec2-instance.component';
-
-
-//import { EC2SecurityGroupComponent } from './ec2/ec2-security-group/ec2-security-group.component';
 
 
 
@@ -307,57 +300,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-//import { Ec2CustomerGatewayComponent } from './ec2/ec2-customer-gateway/ec2-customer-gateway.component';
-//import { Ec2DHCPOptionsComponent } from './ec2/ec2-dhcpoptions/ec2-dhcpoptions.component';
-//import { Ec2EgressOnlyInternetGatewayComponent } from './ec2/ec2-egress-only-internet-gateway/ec2-egress-only-internet-gateway.component';
-//import { Ec2EIPAssociationComponent } from './ec2/ec2-eipassociation/ec2-eipassociation.component';
-//import { Ec2FlowLogComponent } from './ec2/ec2-flow-log/ec2-flow-log.component';
-//import { Ec2HostComponent } from './ec2/ec2-host/ec2-host.component';
-//import { Ec2InternetGatewayComponent } from './ec2/ec2-internet-gateway/ec2-internet-gateway.component';
-//import { Ec2NatGatewayComponent } from './ec2/ec2-nat-gateway/ec2-nat-gateway.component';
-//import { Ec2NetworkAclComponent } from './ec2/ec2-network-acl/ec2-network-acl.component';
-//import { Ec2NetworkInterfaceAttachmentComponent } from './ec2/ec2-network-interface-attachment/ec2-network-interface-attachment.component';
-//import { Ec2NetworkInterfacePermissionComponent } from './ec2/ec2-network-interface-permission/ec2-network-interface-permission.component';
-//import { Ec2PlacementGroupComponent } from './ec2/ec2-placement-group/ec2-placement-group.component';
-//import { Ec2RouteComponent } from './ec2/ec2-route/ec2-route.component';
-//import { Ec2RouteTableComponent } from './ec2/ec2-route-table/ec2-route-table.component';
-//import { Ec2SecurityGroupEgressComponent } from './ec2/ec2-security-group-egress/ec2-security-group-egress.component';
-//import { Ec2SecurityGroupIngressComponent } from './ec2/ec2-security-group-ingress/ec2-security-group-ingress.component';
-//import { Ec2SubnetComponent } from './ec2/ec2-subnet/ec2-subnet.component';
-//import { Ec2SubnetCidrBlockComponent } from './ec2/ec2-subnet-cidr-block/ec2-subnet-cidr-block.component';
-//import { Ec2SubnetNetworkAclAssociationComponent } from './ec2/ec2-subnet-network-acl-association/ec2-subnet-network-acl-association.component';
-//import { Ec2SubnetRouteTableAssociationComponent } from './ec2/ec2-subnet-route-table-association/ec2-subnet-route-table-association.component';
-//import { Ec2TransitGatewayComponent } from './ec2/ec2-transit-gateway/ec2-transit-gateway.component';
-//import { Ec2TransitGatewayAttachmentComponent } from './ec2/ec2-transit-gateway-attachment/ec2-transit-gateway-attachment.component';
-//import { Ec2TransitGatewayRouteComponent } from './ec2/ec2-transit-gateway-route/ec2-transit-gateway-route.component';
-//import { Ec2TransitGatewayRouteTableComponent } from './ec2/ec2-transit-gateway-route-table/ec2-transit-gateway-route-table.component';
-//import { Ec2TransitGatewayRouteTableAssociationComponent } from './ec2/ec2-transit-gateway-route-table-association/ec2-transit-gateway-route-table-association.component';
-//import { Ec2TransitGatewayRouteTablePropagationComponent } from './ec2/ec2-transit-gateway-route-table-propagation/ec2-transit-gateway-route-table-propagation.component';
-//import { Ec2VolumeAttachmentComponent } from './ec2/ec2-volume-attachment/ec2-volume-attachment.component';
-//import { Ec2VPCComponent } from './ec2/ec2-vpc/ec2-vpc.component';
-//import { Ec2VPCCidrBlockComponent } from './ec2/ec2-vpccidr-block/ec2-vpccidr-block.component';
-//import { Ec2VPCDHCPOptionsAssociationComponent } from './ec2/ec2-vpcdhcpoptions-association/ec2-vpcdhcpoptions-association.component';
-//import { Ec2VPCEndpointComponent } from './ec2/ec2-vpcendpoint/ec2-vpcendpoint.component';
-//import { Ec2VPCEndpointConnectionNotificationComponent } from './ec2/ec2-vpcendpoint-connection-notification/ec2-vpcendpoint-connection-notification.component';
-//import { Ec2VPCEndpointServiceComponent } from './ec2/ec2-vpcendpoint-service/ec2-vpcendpoint-service.component';
-//import { Ec2VPCEndpointServicePermissionsComponent } from './ec2/ec2-vpcendpoint-service-permissions/ec2-vpcendpoint-service-permissions.component';
-//import { Ec2VPCGatewayAttachmentComponent } from './ec2/ec2-vpcgateway-attachment/ec2-vpcgateway-attachment.component';
-//import { Ec2VPCPeeringConnectionComponent } from './ec2/ec2-vpcpeering-connection/ec2-vpcpeering-connection.component';
-//import { Ec2VPNConnectionRouteComponent } from './ec2/ec2-vpnconnection-route/ec2-vpnconnection-route.component';
-//import { Ec2VPNGatewayComponent } from './ec2/ec2-vpngateway/ec2-vpngateway.component';
-//import { Ec2VPNGatewayRoutePropagationComponent } from './ec2/ec2-vpngateway-route-propagation/ec2-vpngateway-route-propagation.component';
-//import { Ec2FleetComponent } from './ec2/ec2-fleet/ec2-fleet.component';
-//import { Ec2LaunchTemplateComponent } from './ec2/ec2-launch-template/ec2-launch-template.component';
-//import { Ec2NetworkAclEntryComponent } from './ec2/ec2-network-acl-entry/ec2-network-acl-entry.component';
-//import { Ec2NetworkInterfaceComponent } from './ec2/ec2-network-interface/ec2-network-interface.component';
-//import { Ec2SpotFleetComponent } from './ec2/ec2-spot-fleet/ec2-spot-fleet.component';
-//import { Ec2VpnConnectionComponent } from './ec2/ec2-vpn-connection/ec2-vpn-connection.component';
 
 
 
 
 
-//import { Ec2initconfigComponent } from './ec2initconfig/ec2initconfig.component';
+
+
 
 
 
@@ -368,8 +317,6 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-                //EbsVolumeComponent,
-                //SectionViewComponent,
                 _resource_view_resource_view_component__WEBPACK_IMPORTED_MODULE_38__["ResourceViewComponent"],
                 _result_result_component__WEBPACK_IMPORTED_MODULE_39__["ResultComponent"],
                 _metadata_metadata_component__WEBPACK_IMPORTED_MODULE_40__["MetadataComponent"],
@@ -377,10 +324,7 @@ var AppModule = /** @class */ (function () {
                 _parameters_tab_parameters_tab_component__WEBPACK_IMPORTED_MODULE_43__["ParametersTabComponent"],
                 _intrinsic_functions_intrinsic_functions_component__WEBPACK_IMPORTED_MODULE_45__["IntrinsicFunctionsComponent"],
                 _keys_pipe_pipe__WEBPACK_IMPORTED_MODULE_46__["KeysPipePipe"],
-                //EC2EIPComponent,
-                //EC2InstanceComponent,
                 _object_help_object_help_component__WEBPACK_IMPORTED_MODULE_47__["ObjectHelpComponent"],
-                //EC2SecurityGroupComponent,
                 _mappings_mappings_component__WEBPACK_IMPORTED_MODULE_49__["MappingsComponent"],
                 _conditions_conditions_component__WEBPACK_IMPORTED_MODULE_50__["ConditionsComponent"],
                 _outputs_outputs_component__WEBPACK_IMPORTED_MODULE_51__["OutputsComponent"],
@@ -389,57 +333,11 @@ var AppModule = /** @class */ (function () {
                 _outputs_tab_outputs_tab_component__WEBPACK_IMPORTED_MODULE_54__["OutputsTabComponent"],
                 _conditions_tab_conditions_tab_component__WEBPACK_IMPORTED_MODULE_55__["ConditionsTabComponent"],
                 _mappings_tab_mappings_tab_component__WEBPACK_IMPORTED_MODULE_56__["MappingsTabComponent"],
-                //Ec2CustomerGatewayComponent,
-                //Ec2DHCPOptionsComponent,
-                //Ec2EgressOnlyInternetGatewayComponent,
-                //Ec2EIPAssociationComponent,
-                //Ec2FlowLogComponent,
-                //Ec2HostComponent,
-                //Ec2InternetGatewayComponent,
-                //Ec2NatGatewayComponent,
-                //Ec2NetworkAclComponent,
-                //Ec2NetworkInterfaceAttachmentComponent,
-                //Ec2NetworkInterfacePermissionComponent,
-                //Ec2PlacementGroupComponent,
-                //Ec2RouteComponent,
-                //Ec2RouteTableComponent,
-                //Ec2SecurityGroupEgressComponent,
-                //Ec2SecurityGroupIngressComponent,
-                //Ec2SubnetComponent,
-                //Ec2SubnetCidrBlockComponent,
-                //Ec2SubnetNetworkAclAssociationComponent,
-                //Ec2SubnetRouteTableAssociationComponent,
-                //Ec2TransitGatewayComponent,
-                //Ec2TransitGatewayAttachmentComponent,
-                //Ec2TransitGatewayRouteComponent,
-                //Ec2TransitGatewayRouteTableComponent,
-                //Ec2TransitGatewayRouteTableAssociationComponent,
-                //Ec2TransitGatewayRouteTablePropagationComponent,
-                //Ec2VolumeAttachmentComponent,
-                //Ec2VPCComponent,
-                //Ec2VPCCidrBlockComponent,
-                //Ec2VPCDHCPOptionsAssociationComponent,
-                //Ec2VPCEndpointComponent,
-                //Ec2VPCEndpointConnectionNotificationComponent,
-                //Ec2VPCEndpointServiceComponent,
-                //Ec2VPCEndpointServicePermissionsComponent,
-                //Ec2VPCGatewayAttachmentComponent,
-                //Ec2VPCPeeringConnectionComponent,
-                //Ec2VPNConnectionRouteComponent,
-                //Ec2VPNGatewayComponent,
-                //Ec2VPNGatewayRoutePropagationComponent,
-                //Ec2FleetComponent,
-                //Ec2LaunchTemplateComponent,
-                //Ec2NetworkAclEntryComponent,
-                //Ec2NetworkInterfaceComponent,
-                //Ec2SpotFleetComponent,
-                //Ec2VpnConnectionComponent,
                 _common_resource_common_resource_component__WEBPACK_IMPORTED_MODULE_57__["CommonResourceComponent"],
                 _property_dialog_tab_property_dialog_tab_component__WEBPACK_IMPORTED_MODULE_58__["PropertyDialogTabComponent"],
                 _property_dialog_property_dialog_component__WEBPACK_IMPORTED_MODULE_59__["PropertyDialogComponent"],
                 _functions_tab_functions_tab_component__WEBPACK_IMPORTED_MODULE_60__["FunctionsTabComponent"],
                 _ec2_init_ec2_init_component__WEBPACK_IMPORTED_MODULE_61__["EC2InitComponent"],
-                //Ec2initconfigComponent,
                 _ec2_init_config_tab_ec2_init_config_tab_component__WEBPACK_IMPORTED_MODULE_62__["Ec2InitConfigTabComponent"],
                 _import_template_import_template_component__WEBPACK_IMPORTED_MODULE_63__["ImportTemplateComponent"],
                 _how_to_how_to_component__WEBPACK_IMPORTED_MODULE_64__["HowToComponent"]
@@ -1819,6 +1717,172 @@ var AwsResourcesService = /** @class */ (function () {
                 "NumberOfBrokerNodes": "*Integer. The number of broker nodes you want in the Amazon MSK cluster."
             }
         };
+        //elasticsearch_domain
+        this.es_domain = {
+            "Type": "AWS::Elasticsearch::Domain",
+            "Properties": {
+                "AccessPolicies": { "info": "Type: JSON object. An AWS Identity and Access Management (IAM) policy document that specifies who can access the Amazon ES domain and their permissions." },
+                "AdvancedOptions": "Type: Map of string. Additional options to specify for the Amazon ES domain. rest.action.multi.allow_explicit_index= Specifies whether explicit references to indices are allowed inside the body of HTTP requests. Setting this property to false prevents users from bypassing access control for subresources. indices.fielddata.cache.size= Specifies the percentage of Java heap space that is allocated to field data. By default, this setting is unbounded. indices.query.bool.max_clause_count=Specifies the maximum number of clauses allowed in a Lucene Boolean query. The default is 1024. ",
+                "DomainName": "String. A name for the Amazon ES domain. ",
+                "EBSOptions": { "info": "The configurations of Amazon Elastic Block Store (Amazon EBS) volumes that are attached to data nodes in the Amazon ES domain.##" },
+                "ElasticsearchClusterConfig": { "info": "Type: ElasticsearchClusterConfig. ElasticsearchClusterConfig is a property of the AWS::Elasticsearch::Domain resource that configures the cluster of an Amazon Elasticsearch Service (Amazon ES) domain.##" },
+                "ElasticsearchVersion": "String. The version of Elasticsearch to use, such as 2.3. If not specified, 1.5 is used as the default.",
+                "EncryptionAtRestOptions": { "info": "Type: EncryptionAtRestOptions. Whether the domain should encrypt data at rest, and if so, the AWS Key Management Service (KMS) key to use. Can only be used to create a new domain, not update an existing one.##" },
+                "NodeToNodeEncryptionOptions": { "info": "Type: NodeToNodeEncryptionOptions. Specifies whether node-to-node encryption is enabled.##" },
+                "SnapshotOptions": { "info": "Type: SnapshotOptions. The automated snapshot configuration for the Amazon ES domain indices.##" },
+                "VPCOptions": { "info": "Type: VPCOptions. The virtual private cloud (VPC) configuration for the Amazon ES domain.##" }
+            }
+        };
+        //RDS
+        this.rds_dbcluster = {
+            "Type": "AWS::RDS::DBCluster",
+            "Properties": {
+                "AssociatedRoles": ["List of DBClusterRole. Provides a list of the AWS Identity and Access Management (IAM) roles that are associated with the DB cluster. IAM roles that are associated with a DB cluster grant permission for the DB cluster to access other AWS services on your behalf.##"],
+                "AvailabilityZones": ["List of string. A list of Availability Zones (AZs) where instances in the DB cluster can be created."],
+                "BacktrackWindow": "Type:Long. The target backtrack window, in seconds. To disable backtracking, set this value to 0. If specified, this value must be set to a number from 0 to 259,200 (72 hours).",
+                "BackupRetentionPeriod": "Integer. The number of days for which automated backups are retained. Must be a value from 1 to 35",
+                "DatabaseName": "String. The name of your database. If you don't provide a name, then Amazon RDS won't create a database in this DB cluster.",
+                "DBClusterIdentifier": "String. The DB cluster identifier. This parameter is stored as a lowercase string.",
+                "DBClusterParameterGroupName": "String. The name of the DB cluster parameter group to associate with this DB cluster.",
+                "DBSubnetGroupName": "String. A DB subnet group that you want to associate with this DB cluster.",
+                "DeletionProtection": "Boolean. A value that indicates whether the DB cluster has deletion protection enabled. The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.",
+                "EnableCloudwatchLogsExports": ["List of string. The list of log types that need to be enabled for exporting to CloudWatch Logs. The values in the list depend on the DB engine being used. "],
+                "EnableIAMDatabaseAuthentication": "Boolean. A value that indicates whether to enable mapping of AWS Identity and Access Management (IAM) accounts to database accounts. By default, mapping is disabled.",
+                "Engine": "*String. The name of the database engine to be used for this DB cluster. aurora | aurora-mysql | aurora-postgresql",
+                "EngineMode": "String. provisioned | serverless| parallelquery| global| multimaster.",
+                "EngineVersion": "String. The version number of the database engine to use. Use this command to get it 'aws rds describe-db-engine-versions --engine aurora --query 'DBEngineVersions[].EngineVersion''",
+                "KmsKeyId": "String. The Amazon Resource Name (ARN) of the AWS Key Management Service master key that is used to encrypt the database instances in the DB cluster, such as arn:aws:kms:us-east-1:012345678910:key/abcd1234-a123-456a-a12b-a123b4cd56ef. If you enable the StorageEncrypted property but don't specify this property, the default master key is used. If you specify this property, you must set the StorageEncrypted property to true.",
+                "MasterUsername": "String. The name of the master user for the DB cluster.",
+                "MasterUserPassword": "String. The master password for the DB instance.",
+                "Port": "Integer. The port number on which the instances in the DB cluster accept connections. Default: 3306 if engine is set as aurora or 5432 if set to aurora-postgresql.",
+                "PreferredBackupWindow": "String. The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. Must be in the format hh24:mi-hh24:mi. Must be in Universal Coordinated Time (UTC). Must not conflict with the preferred maintenance window. Must be at least 30 minutes.",
+                "PreferredMaintenanceWindow": "String. The weekly time range during which system maintenance can occur, in Universal Coordinated Time (UTC). Format: ddd:hh24:mi-ddd:hh24:mi. Valid Days: Mon, Tue, Wed, Thu, Fri, Sat, Sun. Constraints: Minimum 30-minute window.",
+                "ReplicationSourceIdentifier": "String. The Amazon Resource Name (ARN) of the source DB instance or DB cluster if this DB cluster is created as a Read Replica.",
+                "RestoreType": "String. The type of restore to be performed. You can specify one of the following values: full-copy - The new DB cluster is restored as a full copy of the source DB cluster. copy-on-write - The new DB cluster is restored as a clone of the source DB cluster.",
+                "ScalingConfiguration": { "info": "Type: ScalingConfiguration. The ScalingConfiguration property type specifies the scaling configuration of an Aurora Serverless DB cluster.##" },
+                "SnapshotIdentifier": "String. The identifier for the DB snapshot or DB cluster snapshot to restore from. You can use either the name or the Amazon Resource Name (ARN) to specify a DB cluster snapshot. However, you can use only the ARN to specify a DB snapshot. After you restore a DB cluster with a SnapshotIdentifier property, you must specify the same SnapshotIdentifier property for any future updates to the DB cluster. When you specify this property for an update, the DB cluster is not restored from the snapshot again, and the data in the database is not changed. However, if you don't specify the SnapshotIdentifier property, an empty DB cluster is created, and the original DB cluster is deleted. If you specify a property that is different from the previous snapshot restore property, the DB cluster is restored from the specified SnapshotIdentifier property, and the original DB cluster is deleted.",
+                "SourceDBClusterIdentifier": "String. The identifier of the source DB cluster from which to restore. Must match the identifier of an existing DBCluster.",
+                "SourceRegion": "String. The AWS Region which contains the source DB cluster when replicating a DB cluster. For example, us-east-1.",
+                "StorageEncrypted": "Boolean. Indicates whether the DB instance is encrypted. ",
+                "UseLatestRestorableTime": "Boolean. A value that indicates whether to restore the DB cluster to the latest restorable backup time. By default, the DB cluster is not restored to the latest restorable backup time.",
+                "VpcSecurityGroupIds": ["List of string. A list of EC2 VPC security groups to associate with this DB cluster."]
+            }
+        };
+        this.rds_dbclusterparametergroup = {
+            "Type": "AWS::RDS::DBClusterParameterGroup",
+            "Properties": {
+                "Description": "*String. A friendly description for this DB cluster parameter group.",
+                "Family": "*String. The DB cluster parameter group family name. A DB cluster parameter group can be associated with one and only one DB cluster parameter group family, and can be applied only to a DB cluster running a DB engine and engine version compatible with that DB cluster parameter group family. Use the command : aws rds describe-db-engine-versions --query 'DBEngineVersions[].DBParameterGroupFamily'",
+                "Parameters": "*Json. Provides a list of parameters for the DB cluster parameter group.",
+            }
+        };
+        this.rds_dbinstance = {
+            "Type": "AWS::RDS::DBInstance",
+            "Properties": {
+                "AllocatedStorage": "String. The amount of storage (in gigabytes) to be initially allocated for the database instance.",
+                "AllowMajorVersionUpgrade": "Boolean. A value that indicates whether major version upgrades are allowed. Changing this parameter doesn't result in an outage and the change is asynchronously applied as soon as possible. Constraints: Major version upgrades must be allowed when specifying a value for the EngineVersion parameter that is a different major version than the DB instance's current version.",
+                "AssociatedRoles": ["Type: List of DBInstanceRole##"],
+                "AutoMinorVersionUpgrade": "Boolean. A value that indicates whether minor engine upgrades are applied automatically to the DB instance during the maintenance window. By default, minor engine upgrades are applied automatically.",
+                "AvailabilityZone": "String. The Availability Zone (AZ) where the database will be created.",
+                "BackupRetentionPeriod": "Integer. The number of days for which automated backups are retained. Setting this parameter to a positive number enables backups. Setting this parameter to 0 disables automated backups.",
+                "CharacterSetName": "String. For supported engines, indicates that the DB instance should be associated with the specified CharacterSet.",
+                "CopyTagsToSnapshot": "Boolean. A value that indicates whether to copy tags from the DB instance to snapshots of the DB instance. By default, tags are not copied.",
+                "DBClusterIdentifier": "String. The identifier of the DB cluster that the instance will belong to.",
+                "DBInstanceClass": "*String. The compute and memory capacity of the DB instance, for example, db.m4.large. Not all DB instance classes are available in all AWS Regions, or for all database engines. ",
+                "DBInstanceIdentifier": "String. A name for the DB instance. If you specify a name, AWS CloudFormation converts it to lowercase. If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the DB instance. ",
+                "DBName": "String. MySQL = The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. MariaDB= The name of the database to create when the DB instance is created. If this parameter is not specified, no database is created in the DB instance. PostgreSQL=The name of the database to create when the DB instance is created. If this parameter is not specified, the default 'postgres' database is created in the DB instance. Oracle=The Oracle System ID (SID) of the created DB instance. If you specify null, the default value ORCL is used. You can't specify the string NULL, or any other reserved word, for DBName. Default: ORCL. SQL Server=Not applicable. Must be null. Amazon Aurora=The name of the database to create when the primary instance of the DB cluster is created. If this parameter is not specified, no database is created in the DB instance. ",
+                "DBParameterGroupName": "String. The name of an existing DB parameter group or a reference to an AWS::RDS::DBParameterGroup resource created in the template.",
+                "DBSecurityGroups": ["List of string. A list of the DB security groups to assign to the DB instance. The list can include both the name of existing DB security groups or references to AWS::RDS::DBSecurityGroup resources created in the template."],
+                "DBSnapshotIdentifier": "String. The name or Amazon Resource Name (ARN) of the DB snapshot that's used to restore the DB instance. If you're restoring from a shared manual DB snapshot, you must specify the ARN of the snapshot. Some DB instance properties aren't valid when you restore from a snapshot, such as the MasterUsername and MasterUserPassword properties.",
+                "DBSubnetGroupName": "String. A DB subnet group to associate with the DB instance. If you update this value, the new subnet group must be a subnet group in a new VPC.",
+                "DeleteAutomatedBackups": "Boolean. A value that indicates whether to remove automated backups immediately after the DB instance is deleted. This parameter isn't case-sensitive. The default is to remove automated backups immediately after the DB instance is deleted.",
+                "DeletionProtection": "Boolean. A value that indicates whether the DB instance has deletion protection enabled. The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.",
+                "Domain": "String. The Active Directory directory ID to create the DB instance in. Currently, only Microsoft SQL Server and Oracle DB instances can be created in an Active Directory Domain.",
+                "DomainIAMRoleName": "String. Specify the name of the IAM role to be used when making API calls to the Directory Service.",
+                "EnableCloudwatchLogsExports": ["List of string. The list of log types that need to be enabled for exporting to CloudWatch Logs. The values in the list depend on the DB engine being used."],
+                "EnableIAMDatabaseAuthentication": "Boolean. A value that indicates whether to enable mapping of AWS Identity and Access Management (IAM) accounts to database accounts. By default, mapping is disabled.",
+                "EnablePerformanceInsights": "Boolean. A value that indicates whether to enable Performance Insights for the DB instance.",
+                "Engine": "String. The name of the database engine that you want to use for this DB instance.",
+                "EngineVersion": "String. The version number of the database engine to use.",
+                "Iops": "Integer. The number of I/O operations per second (IOPS) that the database provisions. The value must be equal to or greater than 1000.",
+                "KmsKeyId": "String. The ARN of the AWS Key Management Service (AWS KMS) master key that's used to encrypt the DB instance, such as arn:aws:kms:us-east-1:012345678910:key/abcd1234-a123-456a-a12b-a123b4cd56ef. If you enable the StorageEncrypted property but don't specify this property, AWS CloudFormation uses the default master key. If you specify this property, you must set the StorageEncrypted property to true.",
+                "LicenseModel": "String. License model information for this DB instance.",
+                "MasterUsername": "String. The master user name for the DB instance.",
+                "MasterUserPassword": "String",
+                "MonitoringInterval": "Integer. The interval, in seconds, between points when Enhanced Monitoring metrics are collected for the DB instance. To disable collecting Enhanced Monitoring metrics, specify 0. The default is 0. Valid Values: 0, 1, 5, 10, 15, 30, 60",
+                "MonitoringRoleArn": "String. The ARN for the IAM role that permits RDS to send enhanced monitoring metrics to Amazon CloudWatch Logs. For example, arn:aws:iam:123456789012:role/emaccess. ",
+                "MultiAZ": "Boolean. Specifies whether the database instance is a multiple Availability Zone deployment. You can't set the AvailabilityZone parameter if the MultiAZ parameter is set to true. Amazon Aurora storage is replicated across all the Availability Zones and doesn't require the MultiAZ option to be set.",
+                "OptionGroupName": "String. Indicates that the DB instance should be associated with the specified option group.",
+                "PerformanceInsightsKMSKeyId": "String. The AWS KMS key identifier for encryption of Performance Insights data. The KMS key ID is the Amazon Resource Name (ARN), KMS key identifier, or the KMS key alias for the KMS encryption key.",
+                "PerformanceInsightsRetentionPeriod": "Integer. The amount of time, in days, to retain Performance Insights data. Valid values are 7 or 731 (2 years).",
+                "Port": "String. The port number on which the database accepts connections.",
+                "PreferredBackupWindow": "String. The daily time range during which automated backups are created if automated backups are enabled, using the BackupRetentionPeriod parameter.",
+                "PreferredMaintenanceWindow": "String. The weekly time range during which system maintenance can occur, in Universal Coordinated Time (UTC).",
+                "ProcessorFeatures": ["List of ProcessFeature. The number of CPU cores and the number of threads per core for the DB instance class of the DB instance.##"],
+                "PromotionTier": "Integer. A value that specifies the order in which an Aurora Replica is promoted to the primary instance after a failure of the existing primary instance. Valid Values: 0 - 15",
+                "PubliclyAccessible": "Boolean. Indicates whether the DB instance is an internet-facing instance. If you specify true, AWS CloudFormation creates an instance with a publicly resolvable DNS name, which resolves to a public IP address. If you specify false, AWS CloudFormation creates an internal instance with a DNS name that resolves to a private IP address.",
+                "SourceDBInstanceIdentifier": "String. If you want to create a Read Replica DB instance, specify the ID of the source DB instance. Each DB instance can have a limited number of Read Replicas. ",
+                "SourceRegion": "String. The ID of the region that contains the source DB instance for the Read Replica.",
+                "StorageEncrypted": "Boolean. A value that indicates whether the DB instance is encrypted. By default, it is not encrypted.",
+                "StorageType": "String. Valid values: standard | gp2 | io1",
+                "Timezone": "String. The time zone of the DB instance.",
+                "UseDefaultProcessorFeatures": "Boolean. A value that indicates whether the DB instance class of the DB instance uses its default processor features.",
+                "VPCSecurityGroups": ["List of string. A list of the VPC security group IDs to assign to the DB instance. The list can include both the physical IDs of existing VPC security groups and references to AWS::EC2::SecurityGroup resources created in the template."]
+            }
+        };
+        this.rds_dbparametergroup = {
+            "Type": "AWS::RDS::DBParameterGroup",
+            "Properties": {
+                "Description": "*String",
+                "Family": "*String. The DB parameter group family name. A DB parameter group can be associated with one and only one DB parameter group family, and can be applied only to a DB instance running a DB engine and engine version compatible with that DB parameter group family.",
+                "Parameters": "Type: Map of string. An array of parameter names, values, and the apply method for the parameter update. At least one parameter name, value, and apply method must be supplied; subsequent arguments are optional",
+            }
+        };
+        this.rds_dbsecuritygroup = {
+            "Type": "AWS::RDS::DBSecurityGroup",
+            "Properties": {
+                "DBSecurityGroupIngress": ["*Type: List of Ingress ##"],
+                "EC2VpcId": "String. The identifier of an Amazon VPC. This property indicates the VPC that this DB security group belongs to.",
+                "GroupDescription": "*String. Provides the description of the DB security group.",
+            }
+        };
+        this.rds_dbsecuritygroupingress = {
+            "Type": "AWS::RDS::DBSecurityGroupIngress",
+            "Properties": {
+                "CIDRIP": "String",
+                "DBSecurityGroupName": "*String",
+                "EC2SecurityGroupId": "String. Id of the EC2 security group to authorize. For VPC DB security groups, EC2SecurityGroupId must be provided. Otherwise, EC2SecurityGroupOwnerId and either EC2SecurityGroupName or EC2SecurityGroupId must be provided.",
+                "EC2SecurityGroupName": "String. Name of the EC2 security group to authorize. For VPC DB security groups, EC2SecurityGroupId must be provided. Otherwise, EC2SecurityGroupOwnerId and either EC2SecurityGroupName or EC2SecurityGroupId must be provided.",
+                "EC2SecurityGroupOwnerId": "String. AWS account number of the owner of the EC2 security group specified in the EC2SecurityGroupName parameter. The AWS Access Key ID is not an acceptable value. For VPC DB security groups, EC2SecurityGroupId must be provided. Otherwise, EC2SecurityGroupOwnerId and either EC2SecurityGroupName or EC2SecurityGroupId must be provided."
+            }
+        };
+        this.rds_dbsubnetgroup = {
+            "Type": "AWS::RDS::DBSubnetGroup",
+            "Properties": {
+                "DBSubnetGroupDescription": "*String",
+                "DBSubnetGroupName": "String. The name for the DB subnet group. This value is stored as a lowercase string.",
+                "SubnetIds": ["*List of string. The EC2 Subnet IDs for the DB subnet group."],
+            }
+        };
+        this.rds_eventsubscription = {
+            "Type": "AWS::RDS::EventSubscription",
+            "Properties": {
+                "Enabled": "Boolean. A value that indicates whether to activate the subscription. If the event notification subscription is not activated, the subscription is created but not active.",
+                "EventCategories": ["List of string. A list of event categories for a SourceType that you want to subscribe to. "],
+                "SnsTopicArn": "*String. The Amazon Resource Name (ARN) of the SNS topic created for event notification. The ARN is created by Amazon SNS when you create a topic and subscribe to it.",
+                "SourceIds": ["List of string. The list of identifiers of the event sources for which events are returned. If not specified, then all sources are included in the response. An identifier must begin with a letter and must contain only ASCII letters, digits, and hyphens; it can't end with a hyphen or contain two consecutive hyphens."],
+                "SourceType": "String. The type of source that is generating the events. For example, if you want to be notified of events generated by a DB instance, you would set this parameter to db-instance. if this value is not specified, all events are returned. Valid values: db-instance | db-cluster | db-parameter-group | db-security-group | db-snapshot | db-cluster-snapshot"
+            }
+        };
+        this.rds_optiongroup = {
+            "Type": "AWS::RDS::OptionGroup",
+            "Properties": {
+                "EngineName": "*String. Specifies the name of the engine that this option group should be associated with.",
+                "MajorEngineVersion": "*String. Specifies the major version of the engine that this option group should be associated with.",
+                "OptionConfigurations": ["*Type: List of OptionConfiguration##"],
+                "OptionGroupDescription": "*String. The description of the option group.",
+            }
+        };
     }
     AwsResourcesService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
@@ -1989,9 +2053,9 @@ var CommonResourceComponent = /** @class */ (function () {
             data: res
         });
         dialogRef.afterClosed().subscribe(function (result) {
-            console.log('The dialog was closed');
+            //console.log('The dialog was closed');
         });
-        console.log(res);
+        //console.log(res);
     };
     CommonResourceComponent.prototype.addNewProperty = function (value) {
         if (this.resObject.Properties.hasOwnProperty(value)) {
@@ -2231,8 +2295,8 @@ var ConditionsComponent = /** @class */ (function () {
     ConditionsComponent.prototype.addCondition = function () {
         this.tagCount += 1;
         this.tagArray.push(this.tagCount);
-        console.log(this.tagCount);
-        console.log(this.tagArray);
+        //console.log(this.tagCount);
+        //console.log(this.tagArray);
     };
     ConditionsComponent.prototype.onRemove = function (value) {
         this.isPresent = false;
@@ -2501,20 +2565,6 @@ var EC2InitComponent = /** @class */ (function () {
         this.commandsCount += 1;
         this.commandsArray.push(this.commandsCount);
     };
-    // getArray(val){
-    //   try {
-    //     if((val as String).includes("{")){
-    //       //console.log("in array of objects...")
-    //       return JSON.parse(val);
-    //     }
-    //      else{
-    //        //console.log("in array of strings...")
-    //        return val.length!=0?((val as String).split(",")):[];
-    //      } 
-    //   } catch (error) {
-    //       alert("Oops! An error occurred. Please check the input field type");
-    //   }
-    // }
     EC2InitComponent.prototype.getArray = function (val) {
         try {
             if (val.includes("{")) {
@@ -2595,7 +2645,6 @@ var EC2InitComponent = /** @class */ (function () {
     };
     //Users
     EC2InitComponent.prototype.onUserDone = function (value) {
-        //console.log(value);
         this.myobj["AWS::CloudFormation::Init"]["config"]["users"] = {};
         for (var i = 1; i <= this.usersArray.length; i++) {
             this.myobj["AWS::CloudFormation::Init"]["config"]["users"][value["user" + i]] = {};
@@ -3095,7 +3144,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-//import {ResAttributes} from './ResAttributes'
 var IntrinsicFunctionsComponent = /** @class */ (function () {
     function IntrinsicFunctionsComponent(jsonresult, utility) {
         this.jsonresult = jsonresult;
@@ -3258,7 +3306,6 @@ var IntrinsicFunctionsComponent = /** @class */ (function () {
         this.fnorArray.push(this.fnorCount);
     };
     IntrinsicFunctionsComponent.prototype.getKeys = function (val) {
-        console.log(Object.keys(val));
         return Object.keys(val);
     };
     IntrinsicFunctionsComponent.prototype.retResList = function () {
@@ -3286,78 +3333,11 @@ var IntrinsicFunctionsComponent = /** @class */ (function () {
         this.fnselectCount = 0;
         this.fnandArray = [];
         this.fnandCount = 0;
-        //this.funcobj={}
-        // switch (value.funcname) {      
-        //   case "Ref":
-        //     value.refvalue=undefined;
-        //     break;
-        //   case "Fn::Base64":
-        //     this.funcobj["Fn::Base64"]=undefined;
-        //     break;
-        //   case "Fn::Cidr":
-        //     value.ipblock=undefined;
-        //     value.count=undefined;
-        //     value.cidrbits=undefined;
-        //     break;
-        //   case "Fn::FindInMap":
-        //     value.maps=undefined;
-        //     value.topkey=undefined;
-        //     value.secondkey=undefined;
-        //     break;
-        //   case "Fn::GetAtt":
-        //     value.resname=undefined;
-        //     value.propname=undefined;
-        //     break;
-        //   case "Fn::GetAZs":
-        //     value.zone=undefined;
-        //     break;
-        //   case "Fn::ImportValue":
-        //     value.importval=undefined;
-        //     break;
-        //   case "Fn::Join":
-        //     value.delim=undefined;
-        //     break;
-        //   case "Fn::Select":
-        //     value.index=undefined;
-        //     break;        
-        //   case "Fn::Split":
-        //     value.split=undefined;
-        //     value.splitvalue=undefined;
-        //     break;    
-        //   case "Fn::Sub":
-        //     value.sub=undefined;
-        //     value.subvalue=undefined;
-        //     break;                
-        //   case "Fn::Transform":
-        //     value.trapara=undefined;
-        //     break;         
-        //   case "Fn::And":
-        //     break;  
-        //   case "Fn::Equals":
-        //     value.equal1=undefined;
-        //     value.equal2=undefined;
-        //     break;    
-        //   case "Fn::If":
-        //     value.ifcon=undefined;
-        //     value.iftrue=undefined;
-        //     value.iffalse=undefined;
-        //     break;      
-        //   case "Fn::Not":
-        //     value.fnnot=undefined;          
-        //     break;
-        //   case "Fn::Or":
-        //     value.fnor=undefined;
-        //     break;
-        //   default:
-        //     break;
-        // }
     };
     IntrinsicFunctionsComponent.prototype.retResource = function () {
-        //console.log(Object.keys(this.jsonresult.jsonresult.Resources))
         return (Object.keys(this.jsonresult.jsonresult.Resources).length != 0) ? Object.keys(this.jsonresult.jsonresult.Resources) : [];
     };
     IntrinsicFunctionsComponent.prototype.retResProps = function (rname) {
-        //return Object.keys(this.jsonresult.jsonresult.Resources[rname]);
         return (Object.keys(this.jsonresult.jsonresult.Resources[rname]["Properties"]).length != 0) ? Object.keys(this.jsonresult.jsonresult.Resources[rname]["Properties"]) : [];
     };
     IntrinsicFunctionsComponent.prototype.retArray = function (num) {
@@ -3371,16 +3351,10 @@ var IntrinsicFunctionsComponent = /** @class */ (function () {
         var textArea = document.createElement("textarea");
         textArea.value = JSON.stringify(this.funcobj);
         document.body.appendChild(textArea);
-        //textArea.focus();
         textArea.select();
         document.execCommand("copy");
         document.body.removeChild(textArea);
     };
-    // doUnescape(value){
-    //   if((value as String).includes('/\\n')){
-    //     return (value as String).replace('/\\n',"\n");
-    //   }
-    // }
     IntrinsicFunctionsComponent.prototype.doFunc = function (value) {
         var _this = this;
         switch (value.funcname) {
@@ -3400,8 +3374,6 @@ var IntrinsicFunctionsComponent = /** @class */ (function () {
                 };
                 break;
             case "Fn::FindInMap":
-                //var val2 = (value.topkey as String).includes("::")?JSON.parse(value.topkey):value.topkey;
-                //var val3 = (value.secondkey as String).includes("::")?JSON.parse(value.secondkey):value.secondkey;
                 this.funcobj = {
                     "Fn::FindInMap": [value.maps, this.utility.getProperJson(value.topkey), this.utility.getProperJson(value.secondkey)]
                 };
@@ -3769,16 +3741,13 @@ var MappingsComponent = /** @class */ (function () {
             this.result.jsonresult.Mappings[value.resourceName] = undefined;
     };
     MappingsComponent.prototype.onDone = function (val) {
-        console.log(val);
         if (this.result.jsonresult.Mappings == undefined) {
             this.result.jsonresult.Mappings = {};
         }
         this.result.jsonresult.Mappings[val.resourceName] = {};
-        //this.result.jsonresult.Mappings[val.resourceName][val.key]={};
         for (var i = 1; i <= this.keyArray.length; i++) {
             var curKey = val["key" + i];
             var valObj = {};
-            //var curVal=val[`value${i}`];
             for (var j = 1; j <= this.valueArray.length; j++) {
                 var curName = val["name" + i + j];
                 var curVal = val["value" + i + j];
@@ -3933,20 +3902,14 @@ var ObjectHelpComponent = /** @class */ (function () {
         this.isCopyReady = false;
         this.myobj = {};
         this.nonStringOutput = {};
-        //this.resKeys=Object.keys(this.mainObj.comProp);
-        //this.propKeys=Object.keys(Object.values(this.mainObj.comProp)[0])
     }
     ObjectHelpComponent.prototype.ngOnInit = function () {
     };
     ObjectHelpComponent.prototype.getKeys = function (value) {
-        //return Object.keys(Object.values(value)[0])
         return (Object.keys(value)).length == 0 ? [] : Object.keys(value);
     };
     ObjectHelpComponent.prototype.onDone = function (value) {
-        //this.selProp=(Object.values(this.mainObj.comProp)[0])[value.resname];
         this.selProp = this.getSelProp(value.resname);
-        //console.log(value);
-        //console.log(this.selProp)
         this.propSent = true;
     };
     ObjectHelpComponent.prototype.getSelProp = function (value) {
@@ -3969,12 +3932,10 @@ var ObjectHelpComponent = /** @class */ (function () {
         var _this = this;
         this.getKeys(loopval).forEach(function (j) {
             if (typeof (loopval[j]) == "string") {
-                //myobj[j]=formval[j];
                 myobj[j] = _this.util.getProperJson(formval[j]);
             }
             else {
                 if (Array.isArray(loopval[j])) {
-                    //myobj[j]=(formval[j] as String).split("|");
                     myobj[j] = _this.util.getSemicolonArray(formval[j]);
                 }
                 else {
@@ -4160,7 +4121,6 @@ var OutputsComponent = /** @class */ (function () {
             this.result.jsonresult.Outputs[value.resourceName] = undefined;
     };
     OutputsComponent.prototype.onDone = function (value) {
-        console.log(value);
         if (this.result.jsonresult.Outputs == undefined) {
             this.result.jsonresult.Outputs = {};
         }
@@ -4313,7 +4273,6 @@ var ParametersComponent = /** @class */ (function () {
         this.regexTooltip = "Do not add an additional backslash to any backslash characters in your regular expression. Escape characters will be automatically added. E.g. if you need to include a \\d in your regular expression, leave it as \\d.";
         this.paramTypes = ["String", "Number", "List<Number>", "CommaDelimitedList", "AWS::EC2::AvailabilityZone::Name", "AWS::EC2::Image::Id", "AWS::EC2::Instance::Id", "AWS::EC2::KeyPair::KeyName", "AWS::EC2::SecurityGroup::GroupName", "AWS::EC2::SecurityGroup::Id", "AWS::EC2::Subnet::Id", "AWS::EC2::Volume::Id", "AWS::EC2::VPC::Id", "AWS::Route53::HostedZone::Id", "List<AWS::EC2::AvailabilityZone::Name>", "List<AWS::EC2::Image::Id>", "List<AWS::EC2::Instance::Id>", "List<AWS::EC2::SecurityGroup::GroupName>", "List<AWS::EC2::SecurityGroup::Id>", "List<AWS::EC2::Subnet::Id>", "List<AWS::EC2::Volume::Id>", "List<AWS::EC2::VPC::Id>", "List<AWS::Route53::HostedZone::Id>", "AWS::SSM::Parameter::Name", "AWS::SSM::Parameter::Value<String>", "AWS::SSM::Parameter::Value<List<String>>", "AWS::SSM::Parameter::Value<CommaDelimitedList>", "AWS::SSM::Parameter::Value<AWS::EC2::AvailabilityZone::Name>", "AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>", "AWS::SSM::Parameter::Value<AWS::EC2::Instance::Id>", "AWS::SSM::Parameter::Value<AWS::EC2::KeyPair::KeyName>", "AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::GroupName>", "AWS::SSM::Parameter::Value<AWS::EC2::SecurityGroup::Id>", "AWS::SSM::Parameter::Value<AWS::EC2::Subnet::Id>", "AWS::SSM::Parameter::Value<AWS::EC2::Volume::Id>", "AWS::SSM::Parameter::Value<AWS::EC2::VPC::Id>", "AWS::SSM::Parameter::Value<AWS::Route53::HostedZone::Id>", "AWS::SSM::Parameter::Value<List<AWS::EC2::AvailabilityZone::Name>>", "AWS::SSM::Parameter::Value<List<AWS::EC2::Image::Id>>", "AWS::SSM::Parameter::Value<List<AWS::EC2::Instance::Id>>", "AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::GroupName>>", "AWS::SSM::Parameter::Value<List<AWS::EC2::SecurityGroup::Id>>", "AWS::SSM::Parameter::Value<List<AWS::EC2::Subnet::Id>>", "AWS::SSM::Parameter::Value<List<AWS::EC2::Volume::Id>>", "AWS::SSM::Parameter::Value<List<AWS::EC2::VPC::Id>>", "AWS::SSM::Parameter::Value<List<AWS::Route53::HostedZone::Id>>"];
         this.resProp = {
-            //"Type":"String | Number | List<Number> | CommaDelimitedList | AWS-Specific Parameter Types| SSM Parameter Types. AWS-specific parameter types are helpful in catching invalid values at the start of creating or updating a stack. Supported AWS-Specific Parameter Types: AWS::EC2::AvailabilityZone::Name, AWS::EC2::Image::Id, AWS::EC2::Instance::Id, AWS::EC2::KeyPair::KeyName, AWS::EC2::SecurityGroup::GroupName, AWS::EC2::SecurityGroup::Id, AWS::EC2::Subnet::Id, AWS::EC2::Volume::Id, AWS::EC2::VPC::Id, AWS::Route53::HostedZone::Id, List<AWS::EC2::AvailabilityZone::Name>, List<AWS::EC2::Image::Id>, List<AWS::EC2::Instance::Id>, List<AWS::EC2::SecurityGroup::GroupName>, List<AWS::EC2::SecurityGroup::Id>, List<AWS::EC2::Subnet::Id>, List<AWS::EC2::Volume::Id>, List<AWS::EC2::VPC::Id>, List<AWS::Route53::HostedZone::Id>. SSM parameter types correspond to existing parameters in Systems Manager Parameter Store. You specify a Systems Manager parameter key as the value of the SSM parameter, and AWS CloudFormation fetches the latest value from Parameter Store to use for the stack. Supported SSM Parameter Types: AWS::SSM::Parameter::Name, AWS::SSM::Parameter::Value<String>, AWS::SSM::Parameter::Value<List<String>> or AWS::SSM::Parameter::Value<CommaDelimitedList>, AWS::SSM::Parameter::Value<AWS-specific parameter type>, AWS::SSM::Parameter::Value<List<AWS-specific parameter type>> ",
             "AllowedPattern": "A regular expression that represents the patterns to allow for String types.",
             "AllowedValues": "An array(comma separated) containing the list of values allowed for the parameter.",
             "ConstraintDescription": "A string that explains a constraint when the constraint is violated.",
@@ -4356,8 +4315,6 @@ var ParametersComponent = /** @class */ (function () {
         if (this.result.jsonresult.Parameters == undefined) {
             this.result.jsonresult.Parameters = {};
         }
-        console.log(value);
-        //this.result.jsonresult.Parameters={};
         this.result.jsonresult.Parameters[value.resourceName] = {
             "Type": value.Type ? value.Type : undefined,
             "AllowedPattern": value.AllowedPattern ? value.AllowedPattern : undefined,
@@ -4505,25 +4462,18 @@ var PropertyDialogComponent = /** @class */ (function () {
         this.reqColor = "red";
         this.conColor = "darkorange";
         this.propSent = false;
-        //prophelp="Properties that include '*' in the tooltip are 'required' properties. Properties that include '**' in the tooltip are 'conditional' properties. Properties that include none of these in the tooltip are optional properties. Tooltips also indicate the type of property e.g. string, boolean, list of strings, list of custom object. Properties that are of type array denoated by 'List of strings' or 'List of <custom type>' in the tooltip. Pleaes click on the 'plus' sign above to populate another 'Property Dealer' widget to generate values of custom objects to be inserted as a value in another property. List of strings are to be entered as is separated by commas. List of custom types are to be enterred within sqaure brackets. Use the function widget below to generate function values."
         this.prophelp = "Tooltip guide: Required properties(starting with *), Conditional properties(starting with **). \n A property of type array should start with 'List of <string|<object>>' \n Enter list of items delimited by semicolon(;) for a property of type array. \nUse the 'plus' icon above to open an additional property dealer widget. Use the function widget below to generate functions. ";
         this.isCopyReady = false;
         this.myobj = {};
         this.nonStringOutput = {};
-        //this.resKeys=Object.keys(this.mainObj.comProp);
-        //this.propKeys=Object.keys(Object.values(this.mainObj.comProp)[0])
     }
     PropertyDialogComponent.prototype.ngOnInit = function () {
     };
     PropertyDialogComponent.prototype.getKeys = function (value) {
-        //return Object.keys(Object.values(value)[0])
         return (Object.keys(value)).length == 0 ? [] : Object.keys(value);
     };
     PropertyDialogComponent.prototype.onDone = function (value) {
-        //this.selProp=(Object.values(this.mainObj.comProp)[0])[value.resname];
         this.selProp = this.getSelProp(value.resname);
-        //console.log(value);
-        //console.log(this.selProp)
         this.propSent = true;
     };
     PropertyDialogComponent.prototype.isRequired = function (value) {
@@ -4569,7 +4519,6 @@ var PropertyDialogComponent = /** @class */ (function () {
                 a2 = i[value];
             }
         });
-        //console.log(a2);
         return a2;
     };
     PropertyDialogComponent.prototype.onSubmit = function (value) {
@@ -6036,6 +5985,85 @@ var ResourceDataService = /** @class */ (function () {
                         "InCluster": "Boolean. When set to true, it indicates that data communication among the broker nodes of the cluster is encrypted. When set to false, the communication happens in plaintext. The default value is true."
                     }
                 }
+            },
+            "AWS::Elasticsearch::Domain": {
+                "EBSOptions": {
+                    "EBSEnabled": "Boolean. Specifies whether Amazon EBS volumes are attached to data nodes in the Amazon ES domain.",
+                    "Iops": "Integer. The number of I/O operations per second (IOPS) that the volume supports. This property applies only to the Provisioned IOPS (SSD) EBS volume type.",
+                    "VolumeSize": "Integer. The size (in GiB) of the EBS volume for each data node. The minimum and maximum size of an EBS volume depends on the EBS volume type and the instance type to which it is attached. ",
+                    "VolumeType": "String. The EBS volume type to use with the Amazon ES domain, such as standard, gp2, io1, st1, or sc1."
+                },
+                "ElasticsearchClusterConfig": {
+                    "DedicatedMasterCount": "Integer. The number of instances to use for the master node. If you specify this property, you must specify true for the DedicatedMasterEnabled property.",
+                    "DedicatedMasterEnabled": "Boolean. Indicates whether to use a dedicated master node for the Amazon ES domain. A dedicated master node is a cluster node that performs cluster management tasks, but doesn't hold data or respond to data upload requests. Dedicated master nodes offload cluster management tasks to increase the stability of your search clusters.",
+                    "DedicatedMasterType": "String. The hardware configuration of the computer that hosts the dedicated master node, such as m3.medium.elasticsearch. If you specify this property, you must specify true for the DedicatedMasterEnabled property.",
+                    "InstanceCount": "Integer. The number of data nodes (instances) to use in the Amazon ES domain.",
+                    "InstanceType": "String. The instance type for your data nodes, such as m3.medium.elasticsearch.",
+                    "ZoneAwarenessConfig": {
+                        "AvailabilityZoneCount": "Integer. If you enabled multiple Availability Zones (AZs), the number of AZs that you want the domain to use. Valid values are 2 and 3. Default is 2."
+                    },
+                    "ZoneAwarenessEnabled": "Boolean. Indicates whether to enable zone awareness for the Amazon ES domain. When you enable zone awareness, Amazon ES allocates the nodes and replica index shards that belong to a cluster across two Availability Zones (AZs) in the same region to prevent data loss and minimize downtime in the event of node or data center failure. Don't enable zone awareness if your cluster has no replica index shards or is a single-node cluster."
+                },
+                "EncryptionAtRestOptions": {
+                    "Enabled": "Boolean. Specify true to enable encryption at rest.",
+                    "KmsKeyId": "String. The KMS key ID. Takes the form 1a2a3a4-1a2a-3a4a-5a6a-1a2a3a4a5a6a."
+                },
+                "NodeToNodeEncryptionOptions": {
+                    "Enabled": "Boolean. Specifies whether node-to-node encryption is enabled, as a Boolean."
+                },
+                "SnapshotOptions": {
+                    "AutomatedSnapshotStartHour": "Integer. The hour in UTC during which the service takes an automated daily snapshot of the indices in the Amazon ES domain. For example, if you specify 0, Amazon ES takes an automated snapshot everyday between midnight and 1 am. You can specify a value between 0 and 23."
+                },
+                "VPCOptions": {
+                    "SecurityGroupIds": ["List of string. The list of security group IDs that are associated with the VPC endpoints for the domain. If you don't provide a security group ID, Amazon ES uses the default security group for the VPC. "],
+                    "SubnetIds": ["List of string. Provide one subnet ID for each Availability Zone that your domain uses. For example, you must specify three subnet IDs for a three Availability Zone domain."]
+                }
+            },
+            "AWS::RDS::DBCluster": {
+                "DBClusterRole": {
+                    "FeatureName": "String. The name of the feature associated with the AWS Identity and Access Management (IAM) role.",
+                    "RoleArn": "*String. The Amazon Resource Name (ARN) of the IAM role that is associated with the DB cluster.",
+                    "Status": "String. Describes the state of association between the IAM role and the DB cluster. The Status property returns one of the following values: ACTIVE| PENDING|INVALID"
+                },
+                "ScalingConfiguration": {
+                    "AutoPause": "Boolean. A value that indicates whether to allow or disallow automatic pause for an Aurora DB cluster in serverless DB engine mode. A DB cluster can be paused only when it's idle (it has no connections).",
+                    "MaxCapacity": "Integer. The maximum capacity for an Aurora DB cluster in serverless DB engine mode. Valid capacity values are 1, 2, 4, 8, 16, 32, 64, 128, and 256.",
+                    "MinCapacity": "Integer. The minimum capacity for an Aurora DB cluster in serverless DB engine mode. Valid capacity values are 1, 2, 4, 8, 16, 32, 64, 128, and 256.",
+                    "SecondsUntilAutoPause": "Integer. The time, in seconds, before an Aurora DB cluster in 'serverless' mode is paused."
+                }
+            },
+            "AWS::RDS::DBInstance": {
+                "DBInstanceRole": {
+                    "FeatureName": "*String. The name of the feature associated with the AWS Identity and Access Management (IAM) role. For the list of supported feature names, see DBEngineVersion.",
+                    "RoleArn": "*String. The Amazon Resource Name (ARN) of the IAM role that is associated with the DB instance.",
+                    "Status": "String. Describes the state of association between the IAM role and the DB instance. The Status property returns one of the following values: ACTIVE|PENDING|INVALID"
+                },
+                "ProcessorFeature": {
+                    "Name": "String. The name of the processor feature. Valid names are coreCount| threadsPerCore.",
+                    "Value": "String. The value of a processor feature name."
+                }
+            },
+            "AWS::RDS::DBSecurityGroup": {
+                "Ingress": {
+                    "CIDRIP": "String. IP range to authorize.",
+                    "EC2SecurityGroupId": "String. Id of the EC2 security group to authorize. For VPC DB security groups, EC2SecurityGroupId must be provided. Otherwise, EC2SecurityGroupOwnerId and either EC2SecurityGroupName or EC2SecurityGroupId must be provided.",
+                    "EC2SecurityGroupName": "String. Name of the EC2 security group to authorize. For VPC DB security groups, EC2SecurityGroupId must be provided. Otherwise, EC2SecurityGroupOwnerId and either EC2SecurityGroupName or EC2SecurityGroupId must be provided.",
+                    "EC2SecurityGroupOwnerId": "String. AWS account number of the owner of the EC2 security group specified in the EC2SecurityGroupName parameter. The AWS Access Key ID is not an acceptable value. For VPC DB security groups, EC2SecurityGroupId must be provided. Otherwise, EC2SecurityGroupOwnerId and either EC2SecurityGroupName or EC2SecurityGroupId must be provided."
+                }
+            },
+            "AWS::RDS::OptionGroup": {
+                "OptionConfiguration": {
+                    "DBSecurityGroupMemberships": ["List of string. A list of DBSecurityGroupMembership name strings used for this option."],
+                    "OptionName": "*String. The configuration of options to include in a group.",
+                    "OptionSettings": ["List of OptionSetting"],
+                    "OptionVersion": "String",
+                    "Port": "Integer",
+                    "VpcSecurityGroupMemberships": ["List of string. A list of VpcSecurityGroupMembership name strings used for this option."]
+                },
+                "OptionSetting": {
+                    "Name": "String",
+                    "Value": "String"
+                }
             }
         };
     }
@@ -6792,6 +6820,66 @@ var RESOURCE_DATA = [
                 resourcecount: 0
             }
         ]
+    },
+    {
+        servicename: "Elasticsearch",
+        subresource: [
+            {
+                resourcename: "Domain",
+                resourcesyntax: "AWS::Elasticsearch::Domain",
+                resourcecount: 0
+            }
+        ]
+    },
+    {
+        servicename: "RDS",
+        subresource: [
+            {
+                resourcename: "DBCluster",
+                resourcesyntax: "AWS::RDS::DBCluster",
+                resourcecount: 0
+            },
+            {
+                resourcename: "DBClusterParameterGroup",
+                resourcesyntax: "AWS::RDS::DBClusterParameterGroup",
+                resourcecount: 0
+            },
+            {
+                resourcename: "DBInstance",
+                resourcesyntax: "AWS::RDS::DBInstance",
+                resourcecount: 0
+            },
+            {
+                resourcename: "DBParameterGroup",
+                resourcesyntax: "AWS::RDS::DBParameterGroup",
+                resourcecount: 0
+            },
+            {
+                resourcename: "DBSecurityGroup",
+                resourcesyntax: "AWS::RDS::DBSecurityGroup",
+                resourcecount: 0
+            },
+            {
+                resourcename: "DBSecurityGroupIngress",
+                resourcesyntax: "AWS::RDS::DBSecurityGroupIngress",
+                resourcecount: 0
+            },
+            {
+                resourcename: "DBSubnetGroup",
+                resourcesyntax: "AWS::RDS::DBSubnetGroup",
+                resourcecount: 0
+            },
+            {
+                resourcename: "EventSubscription",
+                resourcesyntax: "AWS::RDS::EventSubscription",
+                resourcecount: 0
+            },
+            {
+                resourcename: "OptionGroup",
+                resourcesyntax: "AWS::RDS::OptionGroup",
+                resourcecount: 0
+            }
+        ]
     }
 ];
 
@@ -6816,7 +6904,7 @@ module.exports = ".example-container {\r\n    width: 1240px;\r\n    height: 440p
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div >\n<mat-drawer-container class=\"example-container\" autosize >\n      <mat-drawer #function class=\"example-sidenav\" mode=\"side\" position=\"end\" >\n            <mat-icon color=\"primary\"  matTooltip=\"Two identical function widgets are provided so that one function's output can be used in another function easily. E.g. output of Fn::Join to be used in Fn::Base64 to generate UserData property for AWS::EC2::Instance. Use the scroller at the bottom to scroll to the right to preview lengthy function outputs.\" >\n                  info\n            </mat-icon>\n            <app-intrinsic-functions></app-intrinsic-functions><br>\n            <app-intrinsic-functions></app-intrinsic-functions>\n      </mat-drawer>\n    <mat-drawer #drawer class=\"example-sidenav-res\" mode=\"side\" opened >\n          <button type=\"button\" mat-button color=\"primary\" (click)=\"function.toggle()\"\n          matTooltip=\"click to open intrinsic functions side panel. click again to close\">\n                Intrinsic Functions\n          </button>\n          <mat-divider></mat-divider>\n          <mat-select *ngFor=\"let service of resourcelist\" [placeholder]=\"service.servicename\">\n              <mat-option *ngFor=\"let resource of service.subresource\">\n                \n                <button mat-raised-button (click)=\"serviceAddition(resource)\">\n                  <span [matBadge]=\"resource.resourcecount\" matBadgeOverlap=\"false\">{{resource.resourcename}}</span>  \n                </button>\n              </mat-option>\n          </mat-select>\n        <mat-divider></mat-divider>\n    </mat-drawer>  \n     <button *ngIf=\"!drawer.opened\" type=\"button\" color=\"accent\" mat-button (click)=\"drawer.toggle()\" >show resource panel</button>\n     <div>\n      <div *ngFor=\"let i of ec2_instance\">\n            <app-common-resource [myresource]=\"awsresource.ec2_instance\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_volume\">\n        <app-common-resource [myresource]=\"awsresource.ec2_volume\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_eip\">\n            <app-common-resource [myresource]=\"awsresource.ec2_eip\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_securitygroup\">\n            <app-common-resource [myresource]=\"awsresource.ec2_securitygroup\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_customergateway\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_customergateway\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_dhcpoptions\">\n            <app-common-resource [myresource]=\"awsresource.ec2_dhcpoptions\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_egressonlyinternetgateway\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_egressonlyinternetgateway\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_ec2fleet\">\n            <app-common-resource [myresource]=\"awsresource.ec2_ec2fleet\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_eipassociation\">\n            <app-common-resource [myresource]=\"awsresource.ec2_eipassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_flowlog\">\n            <app-common-resource [myresource]=\"awsresource.ec2_flowlog\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_host\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_host\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_internetgateway\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_internetgateway\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_launchtemplate\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_launchtemplate\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_natgateway\">\n            <app-common-resource [myresource]=\"awsresource.ec2_natgateway\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkacl\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkacl\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkaclentry\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkaclentry\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkinterface\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkinterface\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkinterfaceattachment\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkinterfaceattachment\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkinterfacepermission\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkinterfacepermission\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_placementgroup\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_placementgroup\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_route\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_route\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_routetable\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_routetable\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_securitygroupegress\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_securitygroupegress\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_securitygroupingress\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_securitygroupingress\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_spotfleet\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_spotfleet\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_subnet\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_subnet\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_subnetcidrblock\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_subnetcidrblock\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_subnetnetworkaclassociation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_subnetnetworkaclassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_subnetroutetableassociation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_subnetroutetableassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgateway\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgateway\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayattachment \">\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayattachment\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayroute\">\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayroute\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayroutetable \">\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayroutetable\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayroutetableassociation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayroutetableassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayroutetablepropagation\">\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayroutetablepropagation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_volumeattachment\">\n            <app-common-resource [myresource]=\"awsresource.ec2_volumeattachment\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpc\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpc\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpccidrblock\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpccidrblock\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcdhcpoptionsassociation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcdhcpoptionsassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcendpoint\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcendpoint\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcendpointconnectionnotification\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcendpointconnectionnotification\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcendpointservice\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcendpointservice\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcendpointservicepermissions\">  \n            <app-common-resource [myresource]=\"awsresource.ec2_vpcendpointservicepermissions\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcgatewayattachment\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcgatewayattachment\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcpeeringconnection\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcpeeringconnection\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpnconnection\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpnconnection\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpnconnectionroute\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpnconnectionroute\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpngateway\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpngateway\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpngatewayroutepropagation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpngatewayroutepropagation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n\n      <div *ngFor=\"let i of route53_healthcheck\">\n            <app-common-resource [myresource]=\"awsresource.route53_healthcheck\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of route53_hostedzone\" >\n            <app-common-resource [myresource]=\"awsresource.route53_hostedzone\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of route53_recordset\" >\n            <app-common-resource [myresource]=\"awsresource.route53_recordset\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of route53_recordsetgroup\" >\n            <app-common-resource [myresource]=\"awsresource.route53_recordsetgroup\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n\n      <div *ngFor=\"let i of r53_resolver_resolverendpoint\" >\n            <app-common-resource [myresource]=\"awsresource.r53_resolver_resolverendpoint\" [isTagged]=\"true\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of r53_resolver_resolverrule\" >\n            <app-common-resource [myresource]=\"awsresource.r53_resolver_resolverrule\" [isTagged]=\"true\" ></app-common-resource>\n      </div>  \n      <div *ngFor=\"let i of r53_resolver_resolverruleassociation\" >\n            <app-common-resource [myresource]=\"awsresource.r53_resolver_resolverruleassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      \n      \n      <div *ngFor=\"let i of iam_accesskey\" >\n            <app-common-resource [myresource]=\"awsresource.iam_accesskey\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_group\" >\n            <app-common-resource [myresource]=\"awsresource.iam_group\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of iam_instanceprofile\" >\n            <app-common-resource [myresource]=\"awsresource.iam_instanceprofile\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of iam_managedpolicy\" >\n            <app-common-resource [myresource]=\"awsresource.iam_managedpolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_policy\" >\n            <app-common-resource [myresource]=\"awsresource.iam_policy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_role\" >\n            <app-common-resource [myresource]=\"awsresource.iam_role\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_servicelinkedrole\" >\n            <app-common-resource [myresource]=\"awsresource.iam_servicelinkedrole\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_user\" >\n            <app-common-resource [myresource]=\"awsresource.iam_user\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_usertogroupaddition\" >\n            <app-common-resource [myresource]=\"awsresource.iam_usertogroupaddition\" [isTagged]=\"false\" ></app-common-resource>\n      </div>   \n      \n      <div *ngFor=\"let i of ag_agGroup\" >\n            <app-common-resource [myresource]=\"awsresource.ag_agGroup\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of ag_launchConfiguration\" >\n            <app-common-resource [myresource]=\"awsresource.ag_launchConfiguration\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of ag_lifecyclehook\" >\n            <app-common-resource [myresource]=\"awsresource.ag_lifecyclehook\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of ag_scalingpolicy\" >\n            <app-common-resource [myresource]=\"awsresource.ag_scalingpolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of ag_scheduledAction\" >\n            <app-common-resource [myresource]=\"awsresource.ag_scheduledAction\" [isTagged]=\"false\" ></app-common-resource>\n      </div>       \n      \n      <div *ngFor=\"let i of elbv2_listener\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_listener\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of elbv2_listenercertificate\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_listenercertificate\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of elbv2_listenerrule\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_listenerrule\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of elbv2_loadbalancer\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_loadbalancer\" [isTagged]=\"true\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of elbv2_targetgroup\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_targetgroup\" [isTagged]=\"true\" ></app-common-resource>\n      </div>            \n\n      <div *ngFor=\"let i of acm_certificate\" >\n            <app-common-resource [myresource]=\"awsresource.acm_certificate\" [isTagged]=\"true\" ></app-common-resource>\n      </div>            \n\n      <div *ngFor=\"let i of dynamodb_table\" >\n            <app-common-resource [myresource]=\"awsresource.dynamodb_table\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n\n      <div *ngFor=\"let i of sqs_queue\" >\n            <app-common-resource [myresource]=\"awsresource.sqs_queue\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of sqs_queuepolicy\" >\n            <app-common-resource [myresource]=\"awsresource.sqs_queuepolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n\n      <div *ngFor=\"let i of sns_subscription\" >\n            <app-common-resource [myresource]=\"awsresource.sns_subscription\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n      <div *ngFor=\"let i of sns_topic\" >\n            <app-common-resource [myresource]=\"awsresource.sns_topic\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n      <div *ngFor=\"let i of sns_topicpolicy\" >\n            <app-common-resource [myresource]=\"awsresource.sns_topicpolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n\n      <div *ngFor=\"let i of ecs_cluster\" >\n            <app-common-resource [myresource]=\"awsresource.ecs_cluster\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n      <div *ngFor=\"let i of ecs_service\" >\n            <app-common-resource [myresource]=\"awsresource.ecs_service\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n      <div *ngFor=\"let i of ecs_taskdefinition\" >\n            <app-common-resource [myresource]=\"awsresource.ecs_taskdefinition\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n\n      <div *ngFor=\"let i of cloudtrail_trail\" >\n            <app-common-resource [myresource]=\"awsresource.cloudtrail_trail\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n\n      <div *ngFor=\"let i of cw_alarm\" >\n            <app-common-resource [myresource]=\"awsresource.cw_alarm\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cw_dashboard\" >\n            <app-common-resource [myresource]=\"awsresource.cw_dashboard\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n\n      <div *ngFor=\"let i of cwlogs_destination\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_destination\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwlogs_loggroup\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_loggroup\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwlogs_logstream\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_logstream\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwlogs_metricfilter\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_metricfilter\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwlogs_subscriptionfilter\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_subscriptionfilter\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n\n      <div *ngFor=\"let i of cwevents_eventbuspolicy\" >\n            <app-common-resource [myresource]=\"awsresource.cwevents_eventbuspolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwevents_rule\" >\n            <app-common-resource [myresource]=\"awsresource.cwevents_rule\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of eks_cluster\" >\n            <app-common-resource [myresource]=\"awsresource.eks_cluster\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of efs_filesystem\" >\n            <app-common-resource [myresource]=\"awsresource.efs_filesystem\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of efs_mounttarget\" >\n            <app-common-resource [myresource]=\"awsresource.efs_mounttarget\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of s3_bucket\" >\n            <app-common-resource [myresource]=\"awsresource.s3_bucket\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of s3_bucketpolicy\" >\n            <app-common-resource [myresource]=\"awsresource.s3_bucketpolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of ecr_repository\" >\n            <app-common-resource [myresource]=\"awsresource.ecr_repository\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of cfn_customresource\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_customresource\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of cfn_macro\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_macro\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of cfn_stack\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_stack\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of cfn_waitcondition\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_waitcondition\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of cfn_waitconditionhandle\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_waitconditionhandle\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n      \n      <div *ngFor=\"let i of lambda_alias\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_alias\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_eventsourcemapping\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_eventsourcemapping\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_function\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_function\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_layerversion\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_layerversion\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_layerversionpermission\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_layerversionpermission\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of lambda_permission\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_permission\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_version\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_version\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n\n      <div *ngFor=\"let i of ram_resourceshare\" >\n            <app-common-resource [myresource]=\"awsresource.ram_resourceshare\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                                         \n\n      <div *ngFor=\"let i of sm_resourcepolicy\" >\n            <app-common-resource [myresource]=\"awsresource.sm_resourcepolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of sm_rotationschedule\" >\n            <app-common-resource [myresource]=\"awsresource.sm_rotationschedule\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of sm_secret\" >\n            <app-common-resource [myresource]=\"awsresource.sm_secret\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of sm_secrettargetattachment\" >\n            <app-common-resource [myresource]=\"awsresource.sm_secrettargetattachment\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n\n      <div *ngFor=\"let i of cb_project\" >\n            <app-common-resource [myresource]=\"awsresource.cb_project\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of cb_sourcecredential\" >\n            <app-common-resource [myresource]=\"awsresource.cb_sourcecredential\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n\n      <div *ngFor=\"let i of msk_cluster\" >\n            <app-common-resource [myresource]=\"awsresource.msk_cluster\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                           \n\n    </div>\n</mat-drawer-container>\n</div>\n<!-- <div style=\"float:left\" >\n    <app-object-help></app-object-help>\n</div> -->\n<!-- <div style=\"float:left\">\n      <app-intrinsic-functions></app-intrinsic-functions>\n</div>\n<div style=\"float:left\">\n      <app-intrinsic-functions></app-intrinsic-functions>\n</div> -->"
+module.exports = "<div >\n<mat-drawer-container class=\"example-container\" autosize >\n      <mat-drawer #function class=\"example-sidenav\" mode=\"side\" position=\"end\" >\n            <mat-icon color=\"primary\"  matTooltip=\"Two identical function widgets are provided so that one function's output can be used in another function easily. E.g. output of Fn::Join to be used in Fn::Base64 to generate UserData property for AWS::EC2::Instance. Use the scroller at the bottom to scroll to the right to preview lengthy function outputs.\" >\n                  info\n            </mat-icon>\n            <app-intrinsic-functions></app-intrinsic-functions><br>\n            <app-intrinsic-functions></app-intrinsic-functions>\n      </mat-drawer>\n    <mat-drawer #drawer class=\"example-sidenav-res\" mode=\"side\" opened >\n          <button type=\"button\" mat-button color=\"primary\" (click)=\"function.toggle()\"\n          matTooltip=\"click to open intrinsic functions side panel. click again to close\">\n                Intrinsic Functions\n          </button>\n          <mat-divider></mat-divider>\n          <mat-select *ngFor=\"let service of resourcelist\" [placeholder]=\"service.servicename\">\n              <mat-option *ngFor=\"let resource of service.subresource\">\n                \n                <button mat-raised-button (click)=\"serviceAddition(resource)\">\n                  <span [matBadge]=\"resource.resourcecount\" matBadgeOverlap=\"false\">{{resource.resourcename}}</span>  \n                </button>\n              </mat-option>\n          </mat-select>\n        <mat-divider></mat-divider>\n    </mat-drawer>  \n     <button *ngIf=\"!drawer.opened\" type=\"button\" color=\"accent\" mat-button (click)=\"drawer.toggle()\" >show resource panel</button>\n     <div>\n      <div *ngFor=\"let i of ec2_instance\">\n            <app-common-resource [myresource]=\"awsresource.ec2_instance\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_volume\">\n        <app-common-resource [myresource]=\"awsresource.ec2_volume\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_eip\">\n            <app-common-resource [myresource]=\"awsresource.ec2_eip\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_securitygroup\">\n            <app-common-resource [myresource]=\"awsresource.ec2_securitygroup\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_customergateway\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_customergateway\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_dhcpoptions\">\n            <app-common-resource [myresource]=\"awsresource.ec2_dhcpoptions\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_egressonlyinternetgateway\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_egressonlyinternetgateway\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_ec2fleet\">\n            <app-common-resource [myresource]=\"awsresource.ec2_ec2fleet\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_eipassociation\">\n            <app-common-resource [myresource]=\"awsresource.ec2_eipassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_flowlog\">\n            <app-common-resource [myresource]=\"awsresource.ec2_flowlog\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_host\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_host\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_internetgateway\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_internetgateway\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_launchtemplate\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_launchtemplate\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_natgateway\">\n            <app-common-resource [myresource]=\"awsresource.ec2_natgateway\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkacl\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkacl\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkaclentry\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkaclentry\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkinterface\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkinterface\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkinterfaceattachment\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkinterfaceattachment\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_networkinterfacepermission\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_networkinterfacepermission\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_placementgroup\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_placementgroup\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_route\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_route\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_routetable\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_routetable\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_securitygroupegress\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_securitygroupegress\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_securitygroupingress\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_securitygroupingress\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_spotfleet\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_spotfleet\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_subnet\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_subnet\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_subnetcidrblock\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_subnetcidrblock\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_subnetnetworkaclassociation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_subnetnetworkaclassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_subnetroutetableassociation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_subnetroutetableassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgateway\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgateway\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayattachment \">\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayattachment\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayroute\">\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayroute\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayroutetable \">\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayroutetable\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayroutetableassociation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayroutetableassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_transitgatewayroutetablepropagation\">\n            <app-common-resource [myresource]=\"awsresource.ec2_transitgatewayroutetablepropagation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_volumeattachment\">\n            <app-common-resource [myresource]=\"awsresource.ec2_volumeattachment\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpc\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpc\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpccidrblock\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpccidrblock\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcdhcpoptionsassociation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcdhcpoptionsassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcendpoint\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcendpoint\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcendpointconnectionnotification\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcendpointconnectionnotification\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcendpointservice\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcendpointservice\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcendpointservicepermissions\">  \n            <app-common-resource [myresource]=\"awsresource.ec2_vpcendpointservicepermissions\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcgatewayattachment\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcgatewayattachment\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpcpeeringconnection\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpcpeeringconnection\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpnconnection\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpnconnection\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpnconnectionroute\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpnconnectionroute\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpngateway\">\n            <app-common-resource [myresource]=\"awsresource.ec2_vpngateway\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of ec2_vpngatewayroutepropagation\" >\n            <app-common-resource [myresource]=\"awsresource.ec2_vpngatewayroutepropagation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n\n      <div *ngFor=\"let i of route53_healthcheck\">\n            <app-common-resource [myresource]=\"awsresource.route53_healthcheck\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of route53_hostedzone\" >\n            <app-common-resource [myresource]=\"awsresource.route53_hostedzone\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of route53_recordset\" >\n            <app-common-resource [myresource]=\"awsresource.route53_recordset\" [isTagged]=\"false\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of route53_recordsetgroup\" >\n            <app-common-resource [myresource]=\"awsresource.route53_recordsetgroup\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n\n      <div *ngFor=\"let i of r53_resolver_resolverendpoint\" >\n            <app-common-resource [myresource]=\"awsresource.r53_resolver_resolverendpoint\" [isTagged]=\"true\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of r53_resolver_resolverrule\" >\n            <app-common-resource [myresource]=\"awsresource.r53_resolver_resolverrule\" [isTagged]=\"true\" ></app-common-resource>\n      </div>  \n      <div *ngFor=\"let i of r53_resolver_resolverruleassociation\" >\n            <app-common-resource [myresource]=\"awsresource.r53_resolver_resolverruleassociation\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      \n      \n      <div *ngFor=\"let i of iam_accesskey\" >\n            <app-common-resource [myresource]=\"awsresource.iam_accesskey\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_group\" >\n            <app-common-resource [myresource]=\"awsresource.iam_group\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of iam_instanceprofile\" >\n            <app-common-resource [myresource]=\"awsresource.iam_instanceprofile\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of iam_managedpolicy\" >\n            <app-common-resource [myresource]=\"awsresource.iam_managedpolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_policy\" >\n            <app-common-resource [myresource]=\"awsresource.iam_policy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_role\" >\n            <app-common-resource [myresource]=\"awsresource.iam_role\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_servicelinkedrole\" >\n            <app-common-resource [myresource]=\"awsresource.iam_servicelinkedrole\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_user\" >\n            <app-common-resource [myresource]=\"awsresource.iam_user\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of iam_usertogroupaddition\" >\n            <app-common-resource [myresource]=\"awsresource.iam_usertogroupaddition\" [isTagged]=\"false\" ></app-common-resource>\n      </div>   \n      \n      <div *ngFor=\"let i of ag_agGroup\" >\n            <app-common-resource [myresource]=\"awsresource.ag_agGroup\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of ag_launchConfiguration\" >\n            <app-common-resource [myresource]=\"awsresource.ag_launchConfiguration\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of ag_lifecyclehook\" >\n            <app-common-resource [myresource]=\"awsresource.ag_lifecyclehook\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of ag_scalingpolicy\" >\n            <app-common-resource [myresource]=\"awsresource.ag_scalingpolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>      \n      <div *ngFor=\"let i of ag_scheduledAction\" >\n            <app-common-resource [myresource]=\"awsresource.ag_scheduledAction\" [isTagged]=\"false\" ></app-common-resource>\n      </div>       \n      \n      <div *ngFor=\"let i of elbv2_listener\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_listener\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of elbv2_listenercertificate\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_listenercertificate\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of elbv2_listenerrule\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_listenerrule\" [isTagged]=\"false\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of elbv2_loadbalancer\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_loadbalancer\" [isTagged]=\"true\" ></app-common-resource>\n      </div>            \n      <div *ngFor=\"let i of elbv2_targetgroup\" >\n            <app-common-resource [myresource]=\"awsresource.elbv2_targetgroup\" [isTagged]=\"true\" ></app-common-resource>\n      </div>            \n\n      <div *ngFor=\"let i of acm_certificate\" >\n            <app-common-resource [myresource]=\"awsresource.acm_certificate\" [isTagged]=\"true\" ></app-common-resource>\n      </div>            \n\n      <div *ngFor=\"let i of dynamodb_table\" >\n            <app-common-resource [myresource]=\"awsresource.dynamodb_table\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n\n      <div *ngFor=\"let i of sqs_queue\" >\n            <app-common-resource [myresource]=\"awsresource.sqs_queue\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n      <div *ngFor=\"let i of sqs_queuepolicy\" >\n            <app-common-resource [myresource]=\"awsresource.sqs_queuepolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n\n      <div *ngFor=\"let i of sns_subscription\" >\n            <app-common-resource [myresource]=\"awsresource.sns_subscription\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n      <div *ngFor=\"let i of sns_topic\" >\n            <app-common-resource [myresource]=\"awsresource.sns_topic\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n      <div *ngFor=\"let i of sns_topicpolicy\" >\n            <app-common-resource [myresource]=\"awsresource.sns_topicpolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n\n      <div *ngFor=\"let i of ecs_cluster\" >\n            <app-common-resource [myresource]=\"awsresource.ecs_cluster\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n      <div *ngFor=\"let i of ecs_service\" >\n            <app-common-resource [myresource]=\"awsresource.ecs_service\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                        \n      <div *ngFor=\"let i of ecs_taskdefinition\" >\n            <app-common-resource [myresource]=\"awsresource.ecs_taskdefinition\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n\n      <div *ngFor=\"let i of cloudtrail_trail\" >\n            <app-common-resource [myresource]=\"awsresource.cloudtrail_trail\" [isTagged]=\"true\" ></app-common-resource>\n      </div>\n\n      <div *ngFor=\"let i of cw_alarm\" >\n            <app-common-resource [myresource]=\"awsresource.cw_alarm\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cw_dashboard\" >\n            <app-common-resource [myresource]=\"awsresource.cw_dashboard\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n\n      <div *ngFor=\"let i of cwlogs_destination\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_destination\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwlogs_loggroup\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_loggroup\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwlogs_logstream\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_logstream\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwlogs_metricfilter\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_metricfilter\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwlogs_subscriptionfilter\" >\n            <app-common-resource [myresource]=\"awsresource.cwlogs_subscriptionfilter\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n\n      <div *ngFor=\"let i of cwevents_eventbuspolicy\" >\n            <app-common-resource [myresource]=\"awsresource.cwevents_eventbuspolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                    \n      <div *ngFor=\"let i of cwevents_rule\" >\n            <app-common-resource [myresource]=\"awsresource.cwevents_rule\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of eks_cluster\" >\n            <app-common-resource [myresource]=\"awsresource.eks_cluster\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of efs_filesystem\" >\n            <app-common-resource [myresource]=\"awsresource.efs_filesystem\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of efs_mounttarget\" >\n            <app-common-resource [myresource]=\"awsresource.efs_mounttarget\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of s3_bucket\" >\n            <app-common-resource [myresource]=\"awsresource.s3_bucket\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of s3_bucketpolicy\" >\n            <app-common-resource [myresource]=\"awsresource.s3_bucketpolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of ecr_repository\" >\n            <app-common-resource [myresource]=\"awsresource.ecr_repository\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n\n      <div *ngFor=\"let i of cfn_customresource\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_customresource\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of cfn_macro\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_macro\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of cfn_stack\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_stack\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of cfn_waitcondition\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_waitcondition\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of cfn_waitconditionhandle\" >\n            <app-common-resource [myresource]=\"awsresource.cfn_waitconditionhandle\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n      \n      <div *ngFor=\"let i of lambda_alias\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_alias\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_eventsourcemapping\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_eventsourcemapping\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_function\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_function\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_layerversion\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_layerversion\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_layerversionpermission\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_layerversionpermission\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of lambda_permission\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_permission\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                                          \n      <div *ngFor=\"let i of lambda_version\" >\n            <app-common-resource [myresource]=\"awsresource.lambda_version\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n\n      <div *ngFor=\"let i of ram_resourceshare\" >\n            <app-common-resource [myresource]=\"awsresource.ram_resourceshare\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                                         \n\n      <div *ngFor=\"let i of sm_resourcepolicy\" >\n            <app-common-resource [myresource]=\"awsresource.sm_resourcepolicy\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of sm_rotationschedule\" >\n            <app-common-resource [myresource]=\"awsresource.sm_rotationschedule\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of sm_secret\" >\n            <app-common-resource [myresource]=\"awsresource.sm_secret\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of sm_secrettargetattachment\" >\n            <app-common-resource [myresource]=\"awsresource.sm_secrettargetattachment\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n\n      <div *ngFor=\"let i of cb_project\" >\n            <app-common-resource [myresource]=\"awsresource.cb_project\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                           \n      <div *ngFor=\"let i of cb_sourcecredential\" >\n            <app-common-resource [myresource]=\"awsresource.cb_sourcecredential\" [isTagged]=\"false\" ></app-common-resource>\n      </div>                           \n\n      <div *ngFor=\"let i of msk_cluster\" >\n            <app-common-resource [myresource]=\"awsresource.msk_cluster\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                           \n\n      <div *ngFor=\"let i of es_domain\" >\n            <app-common-resource [myresource]=\"awsresource.es_domain\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      \n      <div *ngFor=\"let i of rds_dbcluster\" >\n            <app-common-resource [myresource]=\"awsresource.rds_dbcluster\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      <div *ngFor=\"let i of rds_dbclusterparametergroup\" >\n            <app-common-resource [myresource]=\"awsresource.rds_dbclusterparametergroup\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      <div *ngFor=\"let i of rds_dbinstance\" >\n            <app-common-resource [myresource]=\"awsresource.rds_dbinstance\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      <div *ngFor=\"let i of rds_dbparametergroup\" >\n            <app-common-resource [myresource]=\"awsresource.rds_dbclusterparametergroup\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      <div *ngFor=\"let i of rds_dbsecuritygroup\" >\n            <app-common-resource [myresource]=\"awsresource.rds_dbsecuritygroup\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      <div *ngFor=\"let i of rds_dbsecuritygroupingress\" >\n            <app-common-resource [myresource]=\"awsresource.rds_dbsecuritygroupingress\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      <div *ngFor=\"let i of rds_dbsubnetgroup\" >\n            <app-common-resource [myresource]=\"awsresource.rds_dbsubnetgroup\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      <div *ngFor=\"let i of rds_eventsubscription\" >\n            <app-common-resource [myresource]=\"awsresource.rds_eventsubscription\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      <div *ngFor=\"let i of rds_optiongroup\" >\n            <app-common-resource [myresource]=\"awsresource.rds_optiongroup\" [isTagged]=\"true\" ></app-common-resource>\n      </div>                \n      \n    </div>\n</mat-drawer-container>\n</div>\n<!-- <div style=\"float:left\" >\n    <app-object-help></app-object-help>\n</div> -->\n<!-- <div style=\"float:left\">\n      <app-intrinsic-functions></app-intrinsic-functions>\n</div>\n<div style=\"float:left\">\n      <app-intrinsic-functions></app-intrinsic-functions>\n</div> -->"
 
 /***/ }),
 
@@ -6989,6 +7077,18 @@ var ResourceViewComponent = /** @class */ (function () {
         this.cb_sourcecredential = [];
         //mks(kafka)
         this.msk_cluster = [];
+        //elasticsearch
+        this.es_domain = [];
+        //rds
+        this.rds_dbcluster = [];
+        this.rds_dbclusterparametergroup = [];
+        this.rds_dbinstance = [];
+        this.rds_dbparametergroup = [];
+        this.rds_dbsecuritygroup = [];
+        this.rds_dbsecuritygroupingress = [];
+        this.rds_dbsubnetgroup = [];
+        this.rds_eventsubscription = [];
+        this.rds_optiongroup = [];
     }
     ResourceViewComponent.prototype.ngOnInit = function () {
     };
@@ -7284,6 +7384,28 @@ var ResourceViewComponent = /** @class */ (function () {
             case "MSK":
                 if (this.resource_detail[2] == "Cluster")
                     this.msk_cluster.push(subresource.resourcecount);
+            case "Elasticsearch":
+                if (this.resource_detail[2] == "Domain")
+                    this.es_domain.push(subresource.resourcecount);
+            case "RDS":
+                if (this.resource_detail[2] == "DBCluster")
+                    this.rds_dbcluster.push(subresource.resourcecount);
+                if (this.resource_detail[2] == "DBClusterParameterGroup")
+                    this.rds_dbclusterparametergroup.push(subresource.resourcecount);
+                if (this.resource_detail[2] == "DBInstance")
+                    this.rds_dbinstance.push(subresource.resourcecount);
+                if (this.resource_detail[2] == "DBParameterGroup")
+                    this.rds_dbparametergroup.push(subresource.resourcecount);
+                if (this.resource_detail[2] == "DBSecurityGroup")
+                    this.rds_dbsecuritygroup.push(subresource.resourcecount);
+                if (this.resource_detail[2] == "DBSecurityGroupIngress")
+                    this.rds_dbsecuritygroupingress.push(subresource.resourcecount);
+                if (this.resource_detail[2] == "DBSubnetGroup")
+                    this.rds_dbsubnetgroup.push(subresource.resourcecount);
+                if (this.resource_detail[2] == "EventSubscription")
+                    this.rds_eventsubscription.push(subresource.resourcecount);
+                if (this.resource_detail[2] == "OptionGroup")
+                    this.rds_optiongroup.push(subresource.resourcecount);
             default:
                 break;
         }
@@ -7363,10 +7485,6 @@ var ResultComponent = /** @class */ (function () {
         link.setAttribute('href', data);
         link.setAttribute('download', "cloudkast.json");
         link.click();
-        //var blob = new Blob([JSON.stringify(this.jsonresult.jsonresult)], {type: "text/plain;charset=utf-8"});
-        //FileSaver.saveAs(blob, "cloudfurner.json");
-        //var file = new File([JSON.stringify(this.jsonresult.jsonresult)], "hello world.txt", {type: "text/plain;charset=utf-8"});
-        //saveAs(file);
         var data = str + encodeURIComponent(this.yamlTemplate);
         link.setAttribute('href', data);
         link.setAttribute('download', "cloudkast.yaml");
